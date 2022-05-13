@@ -20,7 +20,7 @@ app.listen(8080,()=>{                                                         //
 
 
 //{useNewUrlParser:true},
-mongoose.connect(process.env.MONGO_URL,()=>{                                   //connecting to the MongoDB
+mongoose.connect(process.env.CONNECT_TO_MONGO,()=>{                                   //connecting to the MongoDB
      console.log("Connected to MongoDB");
 });
 
