@@ -10,13 +10,13 @@
 
 .topbarLeft{
     flex: 3;
-    background-color: rgb(101, 237, 101);
+    background-color: rgb(130, 36, 20);
 }
 .logo{
     font-size: 24px;
     margin-left: 20px;
     font-weight: bold;
-    color:aliceblue;
+    color:#d6dbd7f6;
     cursor: pointer;
 }
 .topbarCenter {
@@ -26,7 +26,7 @@
 .searchbar{
     width: 100%;
     height: 30px;
-    background-color: azure;
+    background-color: rgb(249, 249, 249);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ searchInput{
     flex: 4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color:aliceblue;
 }
 
@@ -58,6 +58,10 @@ searchInput{
     margin-right: 10px;
     font-size: 14px;
     cursor: pointer;
+}
+
+.topbarIcons{
+    display:flex;
 }
 
 .topbarIconItem{
@@ -69,7 +73,7 @@ searchInput{
 .topbariconBadge{
     width: 15px;
     height: 15px;
-    background-color: brown;
+    background-color: rgb(137, 30, 30);
     border-radius: 50%;
     color:rgba(255, 255, 255, 0.885);
     position: absolute;

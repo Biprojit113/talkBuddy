@@ -9,7 +9,7 @@ export default function Topbar() {
             </div>
             <div className="topbarCenter">
                 <div classname="searchbar">
-                    <Search/>
+                    <Search className="searchIcon"/>
                     <input placeholder="Search for friend" classname="searchInput"/>
                 </div>
             </div>
@@ -33,7 +33,7 @@ export default function Topbar() {
                         <span className="topbarIconBadge">4</span>
                     </div>
                 </div>
-                <img src="/assets/person/1.jpg" alt="" className="topbarImg"/>
+                <img src="assets/1.jpg" alt="" className="topbarImg"/>
             </div>
     
         </div>
