@@ -7,7 +7,7 @@ export default function Post(){
             <div className="postWrapper">
                 <div className="postTop">
                     <div className="postTopLeft">
-                        <img className="postProfileImg" src="/assets/image1.jpg" alt=""/>
+                        <img className="postProfileImg" src="/assets/image4.jpg" alt=""/>
                         <span className="postUsername">Billy</span>
                         <span className="postDate">5 mins ago</span>
                     </div>
@@ -17,7 +17,7 @@ export default function Post(){
                 </div>
                 <div className="postCenter">
                     <span className="postText">Hey! Its my first post</span>
-                    <img className="postImg" src="assets/image1.jpg" alt=""/>
+                    <img className="postImg" src="assets/post.jpeg" alt=""/>
                 </div>
                 <div className="postBottom">
                     <div className="postBottomLeft">

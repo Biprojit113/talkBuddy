@@ -42,6 +42,10 @@ export default function Sidebar() {
                        <img className="sidebarFriendImg" src="/assets/Image2.jpeg" alt=""/>
                        <span className="sidebarFriendName">Jyotirmoy Raj</span>
                    </li>
+                   <li className="sidebarFriend">
+                       <img className="sidebarFriendImg" src="/assets/Image1.jpg" alt=""/>
+                       <span className="sidebarFriendName">John the Don</span>
+                   </li>
                </ul>
             </div>
         </div>

@@ -9,8 +9,6 @@ export default function Feed() {
             <Share/>
             <Post/>
             <Post/>
-            <Post/>
-            <Post/>
         </div>
     )
 }

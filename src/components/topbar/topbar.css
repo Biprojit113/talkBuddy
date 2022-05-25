@@ -10,15 +10,15 @@
 
 .topbarLeft{
     flex: 1;
-    background-color: rgb(30, 17, 69);
+    background-color: transparent;
     margin-left: 20px;
 
 }
 .logo{
-    font-size: 24px;
+    font-size: 25px;
     margin-left: 20px;
     font-weight: bold;
-    color:#d6dbd7f6;
+    color: yellow;
     cursor: pointer;
 }
 .topbarCenter {
