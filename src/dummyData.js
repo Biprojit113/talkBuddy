@@ -2,52 +2,52 @@ export const Users = [
   {
     id:1,
     profilePicture: "assets/person/1.jpeg",
-    username: "Safak Kocaoglu",
+    username: "Ashraf Jaman",
   },
   {
     id:2,
     profilePicture: "assets/person/2.jpeg",
-    username: "Janell Shrum",
+    username: "Oli Ullah Antor",
   },
   {
     id:3,
     profilePicture: "assets/person/3.jpeg",
-    username: "Alex Durden",
+    username: "Milon Talukder",
   },
   {
     id:4,
     profilePicture: "assets/person/4.jpeg",
-    username: "Dora Hawks",
+    username: "Aminur Rashid Reza",
   },
   {
     id:5,
     profilePicture: "assets/person/5.jpeg",
-    username: "Thomas Holden",
+    username: "Jyotirmoy Raj Hridoy",
   },
   {
     id:6,
     profilePicture: "assets/person/6.jpeg",
-    username: "Shirley Beauchamp",
+    username: "Ali Raz Rahman",
   },
   {
     id:7,
     profilePicture: "assets/person/7.jpeg",
-    username: "Travis Bennett",
+    username: "Biprojit Dey",
   },
   {
     id:8,
     profilePicture: "assets/person/8.jpeg",
-    username: "Kristen Thomas",
+    username: "Navid Reza Rythm",
   },
   {
     id:9,
     profilePicture: "assets/person/9.jpeg",
-    username: "Gary Duty",
+    username: "Fahid Ahmed",
   },
   {
     id:10,
     profilePicture: "assets/person/10.jpeg",
-    username: "Safak Kocaoglu",
+    username: "Iffadur Priyan",
   },
 ];
 
@@ -63,6 +63,7 @@ export const Posts = [
   },
   {
     id: 2,
+    desc: "Assalamualaikum Guys",
     photo: "assets/post/2.jpeg",
     date: "15 mins ago",
     userId: 2,
@@ -71,7 +72,7 @@ export const Posts = [
   },
   {
     id: 3,
-    desc: "Every moment is a fresh beginning.",
+    desc: "Ajke amar mon balo nei",
     photo: "assets/post/3.jpeg",
     date: "1 hour ago",
     userId: 3,
@@ -80,6 +81,7 @@ export const Posts = [
   },
   {
     id: 4,
+    desc: "1 box 100 , 2 box nile 150 :)",
     photo: "assets/post/4.jpeg",
     date: "4 hours ago",
     userId: 4,
