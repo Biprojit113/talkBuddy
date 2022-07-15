@@ -7,6 +7,7 @@ const helmet  =  require("helmet");
 const { json } = require("express/lib/response");
 const userRoutes = require("./Routes/User");
 const authRoutes = require("./Routes/Authentication");
+const PostRoutes = require("./Routes/posts");   //adding post routes to the application
 
 
 
@@ -29,8 +30,9 @@ mongoose.connect(process.env.MONGO_URL,()=>{                                   /
 app.use(express.json());                                             // for parser requests
 app.use(helmet());                                                    //to justify the reqquests
 app.use(morgan("common"));                                       // to know the actual details of a request
-app.use ("/api/Users",userRoutes);
+app.use ("/api/Users",userRoutes);                           //path  to that plugins
 app.use ("/api/Auth",authRoutes);
+app.use ("/api/Posts",PostRoutes);
 
 
 

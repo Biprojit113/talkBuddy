@@ -4,21 +4,21 @@ const router = express.Router();
 const userSchema = require("../models/Users")
 const bcrypt = require("bcrypt");
 
-router.get('/register', (req,res,next)=>{
-    const infoofuser = Users({
-        Username: req.body.Username,
-        email: req.body.email,
-        password: req.body.password,
+router.get("/register", (req,res,next)=>{
+    const userinfo = Users({
+       Username:req.body.Username,
+       email : req.body.email,
+       password: req.body.password,
         
     })
-   const user = new Users(infoofuser);
-   user.save()
+   const user = new Users(userinfo);
+   userinfo.save()
    .then(result=> res.status(200).json(result))
    .catch(err=> res.status(500).json(err))
 })
 //Here i gonna use asynchronus(async) and await instead of any promise operation code cause it makes more easier to work with than others.
 
-router.post('/register',async(req,res,next)=>{
+router.post("/register",async(req,res,next)=>{
    
     try{
         // generate a password(hashed)
